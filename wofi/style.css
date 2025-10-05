@@ -1,0 +1,50 @@
+window {
+    background-color: rgba(0,0,0,0);
+}
+
+#outer-box {
+    background-color: rgba(19, 19, 23, 0.7);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#input {
+    border: none;
+    border-radius: 16px;
+    color: #eceff4;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#scroll {
+    background-color: transparent;
+}
+
+#entry {
+    padding: 10px 14px;
+    margin: 4px;
+    /* transition-duration: 50ms; */
+    border-radius: 16px;
+}
+
+/* Styles for the selected/highlighted entry */
+#entry:selected {
+    background-color: #A3A1D6;
+}
+
+/* Styles for the text within each entry */
+#text {
+    color: #d8dee9;
+}
+
+/* Styles for the text of the selected entry */
+#entry:selected #text {
+    color: #2e3440;
+    font-weight: BOLD;
+}
+
+/* You can also style images/icons if they are enabled */
+#img {
+    margin-right: 10px;
+}
