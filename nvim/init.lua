@@ -1,3 +1,3 @@
 require("config.lazy")
-require("config.keybinds")
+require("config.init")
 require("config.colorscheme").colorscheme()

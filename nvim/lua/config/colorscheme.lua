@@ -1,7 +1,8 @@
 local M = {}
 
 local colors = {
-	bg = "#131317",
+	bg = "None",
+	bg_sec = "#131317",
 	fg = "#e5e1e7",
 	red = "#CF505D",
 	green = "#80AC5A",
@@ -20,7 +21,7 @@ function M.colorscheme()
 	vim.cmd("syntax reset")
 
 	vim.o.background = "dark"
-	vim.g.colors_name = "purple-black"
+	vim.g.colors_name = "transparent_light"
 
 	local set = vim.api.nvim_set_hl
 
@@ -33,14 +34,14 @@ function M.colorscheme()
 	set(0, "LineNr", { fg = colors.light_gray, bg = colors.bg })
 
 	-- Visual Mode Selection
-	set(0, "Visual", { bg = colors.light_gray, fg = colors.bg })
+	set(0, "Visual", { bg = colors.light_gray, fg = colors.bg_sec })
 
 	-- Search Results
-	set(0, "Search", { bg = colors.yellow, fg = colors.bg })
+	set(0, "Search", { bg = colors.yellow, fg = colors.bg_sec })
 
 	-- Status Line (often uses a contrasting color)
-	set(0, "StatusLine", { bg = colors.light_gray, fg = colors.bg })
-	set(0, "StatusLineNC", { bg = colors.light_gray, fg = colors.bg })
+	set(0, "StatusLine", { bg = colors.light_gray, fg = colors.bg_sec })
+	set(0, "StatusLineNC", { bg = colors.bg, fg = colors.bg })
 
 	-- Common Syntax Groups:colorscheme
 
@@ -71,8 +72,8 @@ function M.colorscheme()
 	set(0, "Special", { fg = colors.red })
 
 	-- Error and Warning messages
-	set(0, "Error", { fg = colors.bg, bg = colors.red })
-	set(0, "WarningMsg", { fg = colors.yellow, bg = colors.bg })
+	set(0, "Error", { fg = colors.bg_sec, bg = colors.red })
+	set(0, "WarningMsg", { fg = colors.yellow, bg = colors.bg_sec })
 end
 
 return M
