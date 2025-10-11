@@ -22,7 +22,7 @@ return {
 		-- navigation
 		set("n", "[b", "<cmd>BufferLineCyclePrev<cr>", { desc = "Previous Buffer" })
 		set("n", "]b", "<cmd>BufferLineCycleNext<cr>", { desc = "Next Buffer" })
-		set("n", "<Tab>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next Buffer" })
+		--	set("n", "<Tab>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next Buffer" })
 
 		-- reorder
 		set("n", "<leader>b<left>", "<cmd>BufferLineMovePrev<cr>", { desc = "Move Buffer Left" })

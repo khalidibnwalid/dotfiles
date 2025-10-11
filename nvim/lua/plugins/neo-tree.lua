@@ -13,7 +13,7 @@ return {
 			{ "<leader>e", ":Neotree toggle<cr>", desc = "Toggle Neo-tree" },
 
 			-- Optional: Open the git status view
-			{ "<leader>g", ":Neotree source=git_status<cr>", desc = "Git Status" },
+			{ "<leader>gs", ":Neotree source=git_status<cr>", desc = "Git Status" },
 
 			-- Optional: Open the buffers view
 			{ "<leader>b", ":Neotree source=buffers<cr>", desc = "Buffers" },
