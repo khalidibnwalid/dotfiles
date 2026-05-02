@@ -74,6 +74,7 @@ function M.colorscheme()
 	-- Error and Warning messages
 	set(0, "Error", { fg = colors.bg_sec, bg = colors.red })
 	set(0, "WarningMsg", { fg = colors.yellow, bg = colors.bg_sec })
+	-- to add: treesitters
 end
 
 return M

@@ -35,7 +35,7 @@ green = "0xA3BE8C"
 yellow = "0xEBCB8B"
 blue = "0x81A1C1"
 magenta = "0xB48EAD"
-cyan = "0xc2c1ff"
+cyan = "0x87ACE8"
 white = "0xE5E9F0"
 
 [colors.bright]
@@ -45,7 +45,7 @@ green = "0xA3BE8C"
 yellow = "0xEBCB8B"
 blue = "0x81A1C1"
 magenta = "0xB48EAD"
-cyan = "0xA3A1D6"
+cyan = "0x87ACE8"
 white = "0xECEFF4"
 
 [font]
