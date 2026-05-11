@@ -10,6 +10,7 @@
 !hypr/
 !wofi/
 !fontconfig/
+!fish/
 
 !nvim/**/*
 !gtk-4.0/**/* 
@@ -18,6 +19,7 @@
 !hypr/**/* 
 !wofi/**/* 
 !fontconfig/**/*
+!fish/**/*
 
 gtk-4/assets/*
 gtk-3/bookmarks
