@@ -25,7 +25,7 @@ multiplier = 3
 draw_bold_text_with_bright_colors = true
 
 [colors.primary]
-background = "0x120C02"
+background = "0x131317"
 foreground = "0xe5e1e7"
 
 [colors.normal]
@@ -35,7 +35,7 @@ green = "0xA3BE8C"
 yellow = "0xEBCB8B"
 blue = "0x81A1C1"
 magenta = "0xB48EAD"
-cyan = "0xB29B6F"
+cyan = "0x87ACE8"
 white = "0xE5E9F0"
 
 [colors.bright]
@@ -45,7 +45,7 @@ green = "0xA3BE8C"
 yellow = "0xEBCB8B"
 blue = "0x81A1C1"
 magenta = "0xB48EAD"
-cyan = "0xB29B6F"
+cyan = "0x87ACE8"
 white = "0xECEFF4"
 
 [font]
